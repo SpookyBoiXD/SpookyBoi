@@ -6,7 +6,7 @@
     <title>SpookyBoiXD</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f4f4f4;
             color: #333;
             margin: 0;
@@ -23,26 +23,37 @@
             padding-top: 30px;
             min-height: 70px;
             border-bottom: #77B5FE 3px solid;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
         #main-header h1 {
             text-align: center;
             text-transform: uppercase;
             margin: 0;
-            font-size: 24px;
+            font-size: 36px;
+            letter-spacing: 3px;
+            padding: 10px 0;
         }
         #main-content {
             margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .profile-pic {
             display: block;
             margin: 20px auto;
             max-width: 200px;
             border-radius: 50%;
+            border: 5px solid #77B5FE;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         .bio {
             text-align: center;
             margin: 20px 0;
-            font-size: 20px;
+            font-size: 24px;
+            color: #555;
+            line-height: 1.5;
         }
         .contact-info {
             text-align: center;
@@ -50,13 +61,24 @@
         }
         .contact-info p {
             font-size: 18px;
+            margin: 8px 0;
         }
         .contact-info a {
             color: #333;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
         .contact-info a:hover {
             color: #77B5FE;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -77,5 +99,8 @@
             <p>Twitter: <a href="https://twitter.com/spookyboixd1" target="_blank">@spookyboixd1</a></p>
         </div>
     </div>
+    <footer>
+        <p>&copy; 2024 SpookyBoiXD. All rights reserved.</p>
+    </footer>
 </body>
 </html>
